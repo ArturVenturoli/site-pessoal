@@ -1,0 +1,599 @@
+/* Document CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cont-principal {
+    font-family: "verdana", sans-serif;
+    font-size: 1em;
+    color: #333;
+}
+
+/* Paragrafo geral - aplicado aos textos contidos nas diversas paginas */
+.p-geral {
+    text-indent: 40px;
+    line-height: 150%;
+    text-align: justify;
+    color: #333;
+}
+
+.p-geral-no-align {
+    line-height: 150%;
+    color: #333;
+}
+
+/* Destaque de titulo COLOR */
+/* utilizado nas formacoes - habilidades caracteristicas - informacoes de contato  - titulo portfolio */
+.t-destaque-cor {
+    font-family: bc-alphapipe, sans-serif;
+    color: #3b2ca8;
+    font-size: 130%;
+}
+
+/* Destaque de SUB titulo COLOR */
+/* utilizado nos cursos complementares - habilidades complementares */
+.sub-t-destaque-cor {
+    font-family: bc-alphapipe, sans-serif;
+    color: #3b2ca8;
+    font-size: 110%;
+}
+
+/* Destaque de titulo 333333 */
+/* utilizado no tipo de formacao - habilidades - informacoes de contato */
+.t-destaque {
+    font-family: bc-alphapipe, sans-serif;
+    color: #333;
+    font-size: 110%;
+}
+
+/* Sobre-Destaque de titulo 333333 */
+/* utilizado especificamente na pagina habilidades para ressaltar HABILIDADES DESENVOLVIDAS pois visulmente a class t-destaque não estava de acordo */
+.t-sobre-destaque {
+    font-family: bc-alphapipe, sans-serif;
+    color: #333;
+    font-size: 125%;
+}
+
+.t-secao-portfolio {
+    font-family: bc-alphapipe, sans-serif;
+    color: #3b2ca8;
+    font-size: 300%;
+}
+
+/* utilizado par informar intituicao e horas nos cursos complementares */
+.p-sub {
+    font-size: 80%;
+    color: #333;
+}
+
+/* utilizado para dar destaque em trechos dentro do paragrafo - mesmas caracteristicas da class t-destaque-cor */
+span {
+    font-family: bc-alphapipe, sans-serif;
+    color: #3b2ca8;
+    font-size: 130%;
+}
+
+/* texto mono nas imagens do portfolio */
+span.foto {
+    color: #333;
+    font-size: 90%;
+}
+
+/* paragrafo utilizado para identificar sequencia dos trabalhos = classe p-sub */
+.modal div p.seq {
+    font-family: 'verdana', sans-serif;
+    text-align: center;
+    font-size: 80%;
+    color: #555;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    position: relative;
+    top: 0;
+}
+
+.logo {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    bottom: 8px;
+}
+
+.logo img {
+    width: 90%;
+    margin-left: 10%;
+}
+
+nav {
+    position: absolute;
+    right: 30px;
+    bottom: 0;    
+}
+
+nav ul li {
+    float: left;
+    width: auto;
+    margin: 0 10px 0 10px;
+    padding: 8px 10px 10px 10px;
+    font-size: 150%;
+    font-family: bc-alphapipe, sans-serif;
+    list-style: none;
+}
+
+nav ul #select a {
+    color: #3b2ca8;
+}
+
+nav ul #port {
+    background-color: #3b2ca8;
+    padding: 8px 10px 10px 10px;
+}
+
+nav ul #port a:hover {
+    color: #fff;
+}
+
+nav ul .select-branco a {
+    color: #fff;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #bbb;
+}
+
+nav ul li a:hover {
+    color: #3b2ca8;
+}
+
+.cor-pagina {
+	background-image:url(line-bg-04.png);
+	background-repeat:repeat;
+}
+
+#cont-paginas {
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+    position: relative;
+    height: 90%;
+    background-color: #fff;
+    top: 10%;
+}
+
+#txt-inicio {
+    width: 60%;
+    font-size: 110%;
+    float: right;
+    position: relative;
+    padding: 5% 5% 5% 0;
+}
+
+#txt-inicio p {
+    width: 100%;
+    position: relative;
+    float: right;
+    text-align: justify;
+}
+
+#txt-nota {
+    width: 66%;
+    float: right;
+    position: relative;
+}
+
+#img-cont-inicio {
+    Width: 27%;
+    position: relative;
+    float: left;
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-bottom: 3%;
+    margin-top: 4%;
+}
+
+#img-cont-inicio img {
+    width: 100%;
+}
+
+#txt-formacao {
+    width: 90%;
+    font-size: 110%;
+    float: left;
+    position: relative;
+    padding: 5% 5% 2% 5%;
+}
+
+#txt-formação p {
+    width: 100%;
+    position: relative;
+    float: left;
+    text-align: justify;
+}
+
+#txt-formacao .espaco-formacao {
+    width: 25%;
+    float: left;
+    position: relative;
+    padding: 1.6%;
+    margin: 3% 2.2% 0 2.2%;
+    text-align: center;
+    border: solid 1px #3b2ca8;
+    min-height: 183px;
+}
+
+#txt-formacao .espaco-formacao-comp {
+    width: 30%;
+    float: left;
+    position: relative;
+    padding: 1.6%;
+    margin-top: 3%;
+    text-align: center;
+    min-height: 284px;
+}
+
+#txt-formacao .espaco-formacao img {
+    width: 200px;
+    padding-top: 5%;
+}
+
+#bloco-habilidade {
+    width: 100%;
+    float: left;
+    position: relative;
+    padding-bottom: 3%;
+}
+
+#bloco-habilidade #espaco-caracteristica {
+    width: 98%;
+    float: left;
+    position: relative;
+    text-align: center;
+    padding: 1%;
+}
+
+#bloco-habilidade #espaco-caracteristica2 {
+    width: 98%;
+    float: left;
+    position: relative;
+    text-align: center;
+    padding: 1%;
+    margin-top: 1%;
+}
+
+#bloco-habilidade #bloco-habilidade-interno {
+    width: 66%;
+    float: left;
+    position: relative;
+    margin-left: 17%;
+}
+
+#bloco-habilidade #bloco-habilidade-interno #espaco-habilidade-left {
+    width: 47%;
+    float: left;
+    position: relative;
+    margin: 1% 1% 1% 2%;
+    text-align: left;
+}
+
+#bloco-habilidade #bloco-habilidade-interno #espaco-habilidade-right {
+    width: 47%;
+    float: left;
+    position: relative;
+    margin: 1% 2% 1% 1%;
+    text-align: right;
+}
+
+#bloco-habilidade #bloco-habilidade-interno #espaco-ferramenta {
+    width: 31%;
+    float: left;
+    position: relative;
+    margin: 1%;
+    text-align: center;
+}
+
+#bloco-experiencia {
+    width: 100%;
+    float: left;
+    position: relative;
+    padding-bottom: 3%;
+}
+
+#bloco-experiencia #espaco-caracteristica1 {
+    width: 64%;
+    float: left;
+    position: relative;
+    text-align: center;
+    padding: 1% 18% 0 18%;
+}
+
+#bloco-experiencia #espaco-caracteristica2 {
+    width: 64%;
+    float: left;
+    position: relative;
+    text-align: justify;
+    padding: 0 18% 1% 18%;
+    text-indent: 40px;
+}
+
+#bloco-experiencia #espaco-caracteristica2 #list {
+    width: 90%;
+    padding: 0 5% 0 5%;
+}
+
+#bloco-experiencia #espaco-caracteristica2 #list ul li {
+    list-style-type: square;
+    font-family: bc-alphapipe, sans-serif;
+    color: #333;
+    font-size: 110%;
+}
+
+#txt-formacao #box-inf-portfolio {
+    width: 58%;
+    float: left;
+    position: relative;
+}
+
+#txt-formacao #box-inf-portfolio #inf-portfolio1 {
+    width: 75%;
+    float: left;
+    position: relative;
+    padding: 0% 5% 0 20%;
+    
+}
+
+#txt-formacao #box-inf-portfolio #inf-portfolio2 {
+    width: 95%;
+    float: left;
+    position: relative;
+    padding: 5% 5% 5% 0;
+    text-align: right;
+}
+
+#txt-formacao #secao-portfolio {
+    width: 39%;
+    float: left;
+    position: relative;
+    padding: 6.5% 0% 7.5% 2.5%;
+}
+
+#txt-formacao #secao-portfolio a {
+    text-decoration: none;
+    Color: #bbb;
+}
+
+#txt-formacao #secao-portfolio a:hover {
+    color: #3b2ca8;
+}
+
+#txt-formacao #portfolio-left {
+    width: 40%;
+    float: left;
+    position: relative;
+    text-align: right;
+    padding-right: 5%;
+    margin-left: 1.5%;
+}
+
+#txt-formacao #portfolio-left a {
+    text-decoration: none;
+    color: #bbb;
+}
+
+#txt-formacao #portfolio-left a:hover {
+    text-decoration: none;
+    color: #3b2ca8;
+}
+
+#txt-formacao #portfolio-right {
+    width: 50%;
+    min-height: 400px;
+    margin: 0 0 3% 0;
+}
+
+/* definicao da grade de exibicao de galeria */
+.row-linha {
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -o-display: flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.coluna {
+    -webkit-flex: 48%;
+    -moz-flex: 48%;
+    -ms-flex: 48%;
+    -o-flex: 48%;
+    flex; 48%;
+    padding: 0 4px;
+}
+
+.coluna img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Galeria pop up */
+/* propriedades do pop up */
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    /* processo de composicao e contrucao da interacao */
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    -ms-transition: opacity 400ms ease-in;
+    -o-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none; /* essa propriedade pode deve ser a responsavel por bloquear qualquer acao do mouse VERIFIQUE ANULA-LA */
+    display: none;
+}
+
+.modal:target {
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* dimesao de exibicao da div aninhada a div principal CLASS MODAL */
+.modal div {
+    width: 50%;
+    margin: 3% 0 0 23%;
+    padding: 2%;
+    position: absolute;
+    background-color: #fff;
+    text-align: center;
+    
+}
+
+/* exibicao da imagem */
+.modal img {
+    position: absolute;
+    max-height: 420px;
+    max-width: 1024px;
+}
+
+.modal img.exibicao {
+    position: relative;
+}
+
+.modal img.exibicao-sorv {
+    max-height: 400px;
+    position: relative;
+}
+
+.modal img.exibicao-border {
+    max-height: 390px;
+    border: 1px solid #bbb;
+    position: relative;
+}
+
+.modal img.exibicao-fwm {
+    width: 63.3%;
+    height: auto;
+    padding: 20% 15% 20% 15%;
+    border: 1px solid #bbb;
+    position: relative;
+}
+
+.modal div p {
+    width: 90%;
+    padding: 1% 0 0 5%;
+    text-align: justify;
+}
+
+.close {
+    background-color: #bbb;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.close:hover {
+    background-color: #3b2ca8;
+}
+
+.prev,.next {
+    font-family: bc-alphapipe, sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+    color: #bbb;
+    text-decoration: none;
+}
+
+.prev:hover,.next:hover {
+    color: #3b2ca8;
+}
+
+.modal div a.prev {
+    width: 20px;
+    text-align: left;
+    float: left;
+    margin-top: 27%;
+}
+
+.modal div a.next {
+    width: 20px;
+    text-align: right;
+    float: right;
+    margin-top: 27%;
+}
+
+.modal div iframe {
+    width: 90%;
+    height: 400px;
+    position: relative;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    top: 30px;
+    background-color: #3b2ca8;
+    position: relative;
+    float:left;
+}
+
+footer .cont-footer {
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+    position: relative;
+    font-family: bc-alphapipe, sans-serif;
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+    
+}
+
+footer .cont-footer .espaco-footer {
+    width: 30%;
+    float: left;
+    padding: 1%;
+    letter-spacing: 1px;
+}
+
+footer .cont-footer .espaco-footer img{
+    height: 50px;
+    vertical-align: bottom;
+    padding-right: 2%;
+}
+
+footer .cont-footer .espaco-footer p a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: inherit;
+}
+
+footer .cont-footer .espaco-footer p a:hover {
+    color: #bbb;
+}
+
+footer .cont-footer .design-by {
+    font-size: 80%;
+    font-family: "verdana", sans-serif;
+    padding: 1%;
+}
